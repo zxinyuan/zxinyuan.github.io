@@ -16,6 +16,12 @@ exploring interdisciplinary ways to make security technologies
 more usable and impactful.
 I received my B.A. in CS from Boston University. 
 
+### Research Interests
+
+- Privacy-preserving systems
+- Applied cryptography
+- Blockchains and distributed systems
+
 <div id="research"></div>
 ## Research
 
