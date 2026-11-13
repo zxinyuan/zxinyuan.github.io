@@ -1,8 +1,8 @@
 .pub-row { display: flex; align-items: center; }
 
-.social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: #87a96b !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
+.social-icons a { display: inline-block; height: 2.4rem; width: 2.4rem; background-color: transparent; color: #577B72 !important; border-radius: 100%; text-align: center; font-size: 1.15rem; line-height: 2.5rem; margin-right: 1rem; }
 
-@media (prefers-color-scheme: dark) { .social-icons a { color: #87a96b !important; } }
+@media (prefers-color-scheme: dark) { .social-icons a { color: #577B72 !important; } }
 .social-icons a:last-child { margin-right: 0; }
 
 .social-icons a:hover { background-color: white; color: black; transform: scale(1.2); }
@@ -30,13 +30,13 @@ email { font-size: 14px; font-family: "Ubuntu Mono"; }
 
 .icon-button i { background: none; color: white; height: 3.6rem; left: 0; line-height: 3.6rem; position: absolute; top: 0; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; width: 3.6rem; z-index: 10; }
 
-.icon-button .icon-twitter { color: #87a96b; }
+.icon-button .icon-twitter { color: #577B72; }
 
-.icon-button .icon-facebook { color: #87a96b; }
+.icon-button .icon-facebook { color: #577B72; }
 
-.icon-button .icon-github { color: #87a96b; }
+.icon-button .icon-github { color: #577B72; }
 
-.icon-button .icon-linkedin { color: #87a96b; }
+.icon-button .icon-linkedin { color: #577B72; }
 
 .icon-button:hover .icon-twitter, .icon-button:hover .icon-facebook, .icon-button:hover .icon-github, .icon-button:hover .icon-linkedin { color: white; }
 
@@ -69,13 +69,13 @@ papertitle { font-weight: 600; font-size: 100%; }
 
 h3, h4, h5, h6 { font-weight: 600; color: #043361; margin: 0 0 20px; }
 
-h3 { color: #87a96b; }
+h3 { color: #577B72; }
 
-h1 { font-weight: 500; color: #87a96b; margin: 0 0 20px; }
+h1 { font-weight: 500; color: #577B72; margin: 0 0 20px; }
 
-h2 { color: #87a96b; font-weight: 500; margin: 2px 0px 15px; font-size: 157%; }
+h2 { color: #577B72; font-weight: 500; margin: 2px 0px 15px; font-size: 157%; }
 
-@media (prefers-color-scheme: dark) { h1, h2, h3 { color: #87a96b; }
+@media (prefers-color-scheme: dark) { h1, h2, h3 { color: #577B72; }
   h4, h5, h6 { color: #3eb7f0; } }
 p, ul, ol, table, pre, dl { margin: 0 0 20px; }
 

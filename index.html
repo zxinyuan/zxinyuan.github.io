@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Personal website of Xinyuan Zhang">
     
-    <meta name="keywords" content="Xinyuan Zhang, cryptography, cryptographer, security, privacy, computer systems, blockchain, computer science, math, mathematics, trust, Duke University">
+    <meta name="keywords" content="Xinyuan Zhang, cryptography, cryptographer, security, privacy, computer systems, blockchain, computer science, math, mathematics, privacy, trust, Duke University">
     
     
     <link rel="canonical" href="https://zxinyuan.github.io"/>
@@ -31,16 +31,25 @@
     
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/letter.css">
+    <script src="./assets/js/letter-tabs.js" defer></script>
     
 
   </head>
   <body>
     <div class="wrapper">
+      <nav class="letter-tabs" aria-label="Page sections">
+        <a href="#about-me">About Me</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#other">Others</a>
+      </nav>
       <header>
+        <div class="profile-heading">
         
         
         <a class="image avatar"><img src="./assets/img/me.JPG" alt="avatar" /></a>
-        
+        <div class="profile-details">
 
         <h1>Xinyuan Zhang</h1>
 
@@ -58,11 +67,8 @@
         
         
         <email>xinyuan.zhang887 (at) duke.edu</email>
-        
-
-
-        <br>
-        <br>
+        </div>
+        </div>
         <div class="social-icons">
         
         <a style="margin: 0 5px 0 0" href="https://scholar.google.com/citations?hl=en&user=-XXhgDIAAAAJ">
@@ -97,7 +103,7 @@
         <br> -->
       </header>
       <section>
-
+      <div class="letter-sections">
       <div id="about"></div>
 <h2 id="about-me">About Me</h2>
 
@@ -106,7 +112,7 @@ I am a Ph.D. candidate at Duke University Computer Science.
 My research focuses on designing practical cryptographic 
 protocols, with an emphasis on bridging formal security 
 guarantees and real-world system performance. 
-I am broadly interested in privacy, security, distributed systems, 
+I am broadly interested in privacy, security,
 and blockchain infrastructure. Outside of research, 
 I am passionate about communicating technical ideas clearly and 
 exploring interdisciplinary ways to make security technologies 
@@ -130,26 +136,25 @@ I received my B.A. in CS from Boston University.
 </ul>
 
 -->
-<div id="research"></div>
 <h2 id="research">Research</h2>
 
 <h3 id="publications"><i class="fa fa-database"></i> Publications</h3>
 <ul>
 
 <li>
-    <strong>Incremental Private Set Intersection Cardinality</strong>.<br />
+    <b>Incremental Private Set Intersection Cardinality</b>.<br />
     Xinyuan Zhang, Anrin Chakraborti, Michael K. Reiter.<br />
     <em>In submission</em>.
 </li>
 
 <li>
-    <strong>Half-Moon Cookie: Private, Similarity-Based Blocklisting with TOCTOU-Attack Resilience</strong>.<br />
+    <b>Half-Moon Cookie: Private, Similarity-Based Blocklisting with TOCTOU-Attack Resilience</b>.<br />
     Xinyuan Zhang, Anrin Chakraborti, Michael K. Reiter.<br />
     <em>ESORICS 2026</em>.
 </li>
 
 <li>
-    <strong>Blocklisted Oblivious Pseudorandom Functions</strong>.<br />
+    <b>Blocklisted Oblivious Pseudorandom Functions</b>.<br />
     Xinyuan Zhang, Anrin Chakraborti, Michael K. Reiter.<br />
     <em>Preprint 2025</em>.
      
@@ -158,7 +163,7 @@ I received my B.A. in CS from Boston University.
 </li>
 
 <li>
-    <strong>Anonymous Sidechains</strong>.<br />
+    <b>Anonymous Sidechains</b>.<br />
     Foteini Baldimtsi, Ian Miers, Xinyuan Zhang.<br />
     <em>CBT 2021</em>.
      
@@ -167,7 +172,7 @@ I received my B.A. in CS from Boston University.
 </li>
 
 <li>
-    <strong>TurboIKOS: Improved Non-interactive Zero Knowledge with Sublinear Memory</strong>.<br />
+    <b>TurboIKOS: Improved Non-interactive Zero Knowledge with Sublinear Memory</b>.<br />
     Yaron Gvili, Julie Ha, Sarah Scheffler, Mayank Varia, Ziling Yang, Xinyuan Zhang.<br />
     <em>ACNS 2021</em>.
      
@@ -176,7 +181,7 @@ I received my B.A. in CS from Boston University.
 </li>
 
 <li>
-    <strong>Mixing Strategies in Cryptocurrencies and An Alternative Implementation</strong>.<br />
+    <b>Mixing Strategies in Cryptocurrencies and An Alternative Implementation</b>.<br />
     Xinyuan Zhang.<br />
     <em>Preprint 2020</em>.
      
@@ -186,30 +191,81 @@ I received my B.A. in CS from Boston University.
 
 </ul>
 
+<h3 id="talk"><i class="fa fa-person-chalkboard"></i> Talks</h3>
+
+<ul>
+  <li>
+    <b>Case Study: Who Watches the Watchers? Lessons from Decentralizing Security Analytics.</b>
+    <div style="margin-left: 1em; font-style: italic;">
+      ACSAC. Dec, 2026 (to appear).
+    </div>
+  </li>
+  <li>
+    <b>Half-Moon Cookie: Private, Similarity-Based Blocklisting with TOCTOU-Attack Resilience.</b>
+    <div style="margin-left: 1em; font-style: italic;">
+      TAPS Day. Nov, 2026.<br>
+      ESORICS. Sept, 2026.
+    </div>
+  </li>
+  <li>
+    <b>Anonymous Sidechains.</b>
+    <div style="margin-left: 1em; font-style: italic;">
+      CBT. Oct, 2021.
+    </div>
+  </li>
+  <li>
+    <b>Maliciously-secure Private Set Intersection based on ElGamal.</b>
+    <div style="margin-left: 1em; font-style: italic;">
+      UIUC Crypto Reading Group. Feb, 2021.
+    </div>
+  </li>
+</ul>
+
 <h3 id="service"><i class="fa fa-users"></i> Service</h3>
 
 <ul> 
-  <li> Subreviewer: </li>
-  <p> <i>FC 21, USENIX 26</i> </p>
+  <li> Subreviewer: FC 21, USENIX 26 </li>
 
 </ul>
 
-<div id="experience"></div>
 <h2 id="experience">Experience</h2>
 
-<ul> 
-  <li> <b>Security Engineering Intern</b> (Summer 2026) </li>
-  <p> <i>Tools for Humanity </i> </p>
+<h3 id="work-experience"><i class="fa fa-briefcase" aria-hidden="true"></i> Work Experience</h3>
 
-  <li> <b>IT Intern</b> (Summer 2019) </li>
-  <p> <i>Eaton Corporate </i> </p>
-
+<ul class="work-experience-list">
+  <li>
+    <div class="job-entry">
+    <span class="job-title">Security Engineering Intern</span>
+    <span class="job-date">Summer 2026</span>
+    <span class="job-company"><img class="company-logo" src="./assets/img/company-logos/tools-for-humanity.svg" alt="" width="44" height="24"><span>Tools for Humanity</span></span>
+    </div>
+  </li>
+  <li>
+    <div class="job-entry">
+    <span class="job-title">Graduate Research Assistant</span>
+    <span class="job-date">Fall 2020 &ndash; Spring 2021</span>
+    <span class="job-company"><img class="company-logo" src="./assets/img/company-logos/george-mason.png" alt="" width="44" height="24"><span>George Mason University</span></span>
+    </div>
+  </li>
+  <li>
+    <div class="job-entry">
+    <span class="job-title">IT Intern</span>
+    <span class="job-date">Summer 2019</span>
+    <span class="job-company"><img class="company-logo" src="./assets/img/company-logos/eaton.svg" alt="" width="44" height="24"><span>Eaton Corporate</span></span>
+    </div>
+  </li>
 </ul>
 
-<div id="teaching"></div>
-<h2 id="teaching">Teaching</h2>
-
+<h3 id="teaching"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Teaching</h3>
 <ul> 
+  <!--
+  <li> co-Instructor at Duke University </li>
+  <ul>
+  <li> <b>Cryptography (COMPSCI 590.05/582)</b> <br />
+    <i>Spring 2027</i><br /></li>
+  </ul>
+  -->
+
   <li> Teaching Assistant at Duke University </li>
   <ul>
   <li> <b>Computer Security (COMPSCI 351/581)</b> <br />
@@ -230,11 +286,19 @@ I received my B.A. in CS from Boston University.
 </ul>
 
 
-<div id="other"></div>
+<h3 id="volunteer"><i class="fa fa-hands-helping" aria-hidden="true"></i> Volunteer</h3>
+
+<ul>
+  <li>
+    <b>RYT-200 Yoga Instructor</b> (Fall 2025 &ndash; Present)<br>
+    Duke Student Wellness
+  </li>
+</ul>
+
 <h2 id="other">Others</h2>
 
 <ul>
-  <li> <b>Language:</b> Chinese, English, Japanese, Korean, Spanish </li>
+  <li> <b>Language:</b> Chinese, English, Japanese (JLPT N1), Korean </li>
   <li> <b>Musical Instrument:</b> Violin, Guitar, Harmonica </li>
   <li> <b>Sports:</b> Swimming, Yoga, <a href="./assets/WCS.MP4">Dance</a>, <a href="./assets/pole2.mp4">Pole Dancing</a> </li>
   <li> <b> Cover singer</b> </br>
@@ -246,6 +310,7 @@ I received my B.A. in CS from Boston University.
 
 
       
+      </div>
       <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
       
 
